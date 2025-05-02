@@ -1,77 +1,66 @@
-# LexiSense
+# 🚀 LexiSense – Your Ultimate AI-Powered Book Discovery & Planner 📚🤖
 
-AI-Powered Book Search, a platform integrating NLP-driven sentiment analysis to provide insights on book descriptions with sentiment scores and emojis It includes advanced features such as a dynamic search form, sentiment analysis using Natural Language Processing (NLP), and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data, with added insights from sentiment analysis.
+**LexiSense** is a full-stack reading companion built for modern readers and developers. It lets you:
+- 🔍 **Discover & Search** thousands of books via Google Books API  
+- 📈 **Track Trending** reads with real-time popularity ranking  
+- 🧠 **AI-Driven Planner** crafting a 7-day customized reading schedule based on your available time, interests, and number of books  
+- ⏱️ **Dynamic Time Allocation** where each day’s split is unique—no two days look the same  
+- 💡 **Reflective Prompts** with daily takeaways and micro-questions to deepen engagement  
+- ⚙️ **Easy Deploy** on Vercel (frontend) and Render/Vercel (backend) with environment-based configuration  
 
-![l-m](public/l-m.gif)
-![2](https://github.com/user-attachments/assets/14308f8a-1874-4a8c-94b7-5f1c571e96cc)
-![3](https://github.com/user-attachments/assets/ea892818-d26e-4d8d-abc7-cd575804198f)
-![l-m](public/l-ss.gif)
-![8](https://github.com/user-attachments/assets/8c93be14-391d-4d2d-8ff7-242acadb6c9c)
-![7](https://github.com/user-attachments/assets/353c0933-94a1-4caa-be6f-e6c2377d54de)
+---
 
-## Features
+## 🌟 Key Features
 
-- **Search Functionality**: Users can search for books by entering keywords.
-- **Dynamic Book Listings**: Displays book information including title, author, description, and a preview link.
-- **Sentiment Analysis**: Utilizes NLP to analyze the sentiment of book descriptions and display sentiment scores with corresponding emojis.
-- **Animated Background**: Features a visually appealing, animated background.
-- **Changing Heading Text**: The heading text changes colors to maintain visibility against the changing background.
-- **Information Retrieval**: Demonstrates efficient information retrieval from a large dataset using the Google Books API.
-- **Responsive Design**: Ensures the application works seamlessly across devices.
+| Feature               | Description                                                                                                           |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 🔎 Book Search        | Seamless search powered by Google Books API                                                                           |
+| 📊 Trending Dashboard | View and update book popularity in real-time with dynamic ranking                                                      |
+| 🤖 AI Reading Planner | • **Time-Based**: Specify minutes/day<br>• **Book Count**: Pick 1–5 trending books<br>• **Unique Splits**: Vary daily allocations<br>• **Reflection**: Rate engagement & highlight favorite lines |
 
-## Technologies & Tools Used
+---
 
-### Frontend
-- React.js
-- CSS3
-- HTML5
-- JavaScript
+## 🏗️ Tech Stack
 
-### APIs
-- Google Books API
+- **Frontend**: React • React Router • CSS Glassmorphism • Responsive Grid  
+- **Backend**: Node.js • Express • MongoDB Atlas • Mongoose • Groq AI SDK (Llama3-70B)  
+- **APIs**: Google Books API • Groq Chat Completions  
+- **Deployment**: Vercel (frontend SSR & CDN) • Render/Vercel Functions (backend)  
 
-### Machine Learning & NLP
-- Sentiment (NLP library)
+---
 
-### Development Tools
-- VS Code
-  
-## Demo
-A live demo of the project is available at [this link](https://lexi-sense.vercel.app/)
+## ⚡ Quick Start
 
-## Installation and Usage
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/YourUsername/lexisense.git
+   cd lexisense
 
-To use this app, you can follow these steps:
+2. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
+   cp .env.example .env          # set MONGODB_URI & GROQ_API_KEY
+   npm start
 
-1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    ```
+3. **Frontend Setup**
+   ```bash
+   cd ../frontend
+   npm install
+   npm start
 
-2. Navigate to the project directory:
-    ```sh
-    cd project-directory
-    ```
+## 🚀 Deploy
 
-3. Install dependencies:
-    ```sh
-    npm install
-    ```
+1. **Push** your code to GitHub  
+2. **Connect** the **frontend** directory to Vercel for automatic builds & CDN deployment  
+3. **Connect** the **backend** to Vercel Functions or Render for serverless API hosting  
 
-4. Start the application:
-    ```sh
-    npm start
-    ```
+---
 
-5. Access the application: Open your web browser and go to `http://localhost:3000`.
+## 💬 Contributions & Feedback
 
-## Project Structure
+We 🎉 welcome your ideas! Open an issue or submit a PR to help us add:
 
-The project is structured as follows:
-
-- **src/components**: Contains the individual React components (e.g., `SearchForm`, `BookList`).
-- **src/App.js**: The main App component.
-- **src/App.css**: The main stylesheet.
-- **public**: Contains the HTML template and other public assets.
-
-This project demonstrates a modern approach to building a search interface with a rich and interactive user experience, highlighting effective information retrieval techniques and advanced sentiment analysis to provide additional insights into book descriptions.
+- 📈 **More analytics** (reading streaks, progress charts)  
+- 🎨 **Enhanced UI themes** (dark/light mode, accessibility support)  
+- 🔧 **Additional AI features** (genre-specific guides, audiobook sync)  
