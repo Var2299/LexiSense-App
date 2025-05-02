@@ -1,9 +1,10 @@
-# 🚀 LexiSense – Your Ultimate AI-Powered Book Discovery & Planner 📚🤖
+# 🚀 LexiSense – Your Ultimate AI-Powered Book Discovery & Reading Planner 📚🤖
 
 **LexiSense** is a full-stack reading companion built for modern readers and developers. It lets you:
 - 🔍 **Discover & Search** thousands of books via Google Books API  
 - 📈 **Track Trending** reads with real-time popularity ranking  
-- 🧠 **AI-Driven Planner** crafting a 7-day customized reading schedule based on your available time, interests, and number of books  
+- 🧠 **AI-Driven Planner** crafting a 7-day customized reading schedule based on your available time, interests, and number of books
+- 🤖 Powered by **Groq’s LLaMA 3–70B** model for blazing-fast, intelligent reading plans 
 - ⏱️ **Dynamic Time Allocation** where each day’s split is unique—no two days look the same  
 - 💡 **Reflective Prompts** with daily takeaways and micro-questions to deepen engagement  
 - ⚙️ **Easy Deploy** on Vercel (frontend) and Render/Vercel (backend) with environment-based configuration  
