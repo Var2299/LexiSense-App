@@ -17,6 +17,8 @@
 ✅ Sentiment analysis using fine-tuned Hugging Face transformers  
 🔜 **Planned:** Personalized reading habit prediction based on user interactions
 
+---
+
 ![image](https://github.com/user-attachments/assets/0435c534-e878-4394-9d9f-b5a4e877fd3a)
 
 ---
